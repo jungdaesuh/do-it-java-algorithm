@@ -1,8 +1,8 @@
-package chapter01.ex;
+package chap01.ex;
 
 import java.util.Scanner;
 
-public class StarPira_01_16 {
+public class NumPira_01_17 {
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in);
 
@@ -16,20 +16,21 @@ public class StarPira_01_16 {
         } while (n <= 0);
 
         System.out.println("피라미드");
-        pyramid(n);
+        numberPyramid(n);
     }
 
-    static void pyramid(int n) {
+    static void numberPyramid(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n - i - 1; j++) {
                 System.out.print(" ");
             }
             for (int j = 0; j < i * 2 + 1; j++) {
-                System.out.print("*");
+                System.out.print((i+1) % 10);
             }
             System.out.println();
         }
 
 
     }
+
 }

@@ -1,6 +1,4 @@
-package chapter01.ex;
-
-import jdk.swing.interop.SwingInterOpUtils;
+package chap01.ex;
 
 import java.util.Scanner;
 

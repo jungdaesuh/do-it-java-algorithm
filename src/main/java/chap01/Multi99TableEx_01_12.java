@@ -1,4 +1,4 @@
-package chapter01;
+package chap01;
 
 public class Multi99TableEx_01_12 {
     public static void main(String[] args) {
