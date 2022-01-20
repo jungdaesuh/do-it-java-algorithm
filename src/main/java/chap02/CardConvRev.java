@@ -32,7 +32,7 @@ public class CardConvRev {
 
             } while (no < 0);
 
-            do {
+            do { 
                 System.out.print("어떤 진수로 변환할까요? (2~36): ");
                 cd = stdIn.nextInt();
             } while (cd < 2 || cd > 36);
